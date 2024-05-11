@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body > header {
+    background-color: #ff4d4d;
+    padding: 16px 0;
+    color: #ddd;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header li {
+    display: inline;
+}
+
+header li a{
+    text-decoration: none;
+    margin-left: 40px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+header li a:hover{
+    text-decoration: underline;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+    
+}
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+    margin: 8px 0;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2, 
+.articles article {
+    margin-bottom: 16px;
+    margin-top: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.articles article a {
+    background-color: #3333cc;
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
+    margin-top: 5px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.articles article a:hover{
+    text-decoration:underline;
+}
+
+.articles article p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.articles article h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 16px 0;
+    font-size: 26px;
+}
+section h2 {
+    font-size: 36px;
+}
+
+#sports {
+    background-color: rgba(0, 255, 0, 0.1);
+}
+#sports .articles article a {
+    background-color: #009900;
+}
+#economy {
+    background-color: #ffcc00;
+}
+
+#economy .articles article a{
+    background-color:#ff9900;
+}
+
+#entretenimento {
+    background-color: #669999;
+}
+
+#entretenimento .articles article a {
+    background-color: #293d3d;
+}
+
+#tecnologia {
+    background-color: #b34700;
+}
+
+#tecnologia .articles article a {
+    background-color: #ff751a;
+}
